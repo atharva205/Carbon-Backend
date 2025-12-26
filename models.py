@@ -5,11 +5,9 @@ class CarbonInput(BaseModel):
     distance_km: float
     meal_type: str
     electricity_kwh: float
-    
+
 class CarbonResponse(BaseModel):
     total_co2: float
     breakdown: dict
     score: str
     suggestion: str
-
-
